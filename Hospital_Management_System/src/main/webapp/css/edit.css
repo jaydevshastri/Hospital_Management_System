@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+body{
+    margin-left:500px;
+    margin-right: 550px;
+    margin-top: 100px;
+    
+    
+    
+}
+table {
+    text-align:center;
+  border-collapse: collapse;
+  width: 90%;
+ 
+ background-image:url("https://acsonnet.com/wp-content/uploads/2021/07/Hospital-Management-Software.jpg");
+   border-radius:20px;
+    
+  
+}
+tr,td{
+    padding: 8px;
+    text-align: left;
+    width:500px;
+    height:30px;
+    
+}
+#btn{
+    
+    border-radius:5px;
+    font-size:large;
+    width:80;
+    
+}
+
+ #btn:hover{
+    background-color:#400040;
+    color: black;
+    
+  
+}
+
+#na{
+    
+    border-bottom: 1px solid;
+    border-color: black;
+    border-radius: 4px;
+    font-size: larger;
+    height: 25px;
+}

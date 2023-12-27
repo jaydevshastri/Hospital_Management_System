@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/addpatient.css">
+
+</head>
+<body> 
+<div class="main">
+<form  action="patientController" method="Get" >
+<h1 class="A1">Add Patient Information</h1>
+<label><h2 style=color:black>Enter Id:
+</label><input type="text"  name="id" placeholder="Enter your id" id="in" ></h2>
+
+<label><h2 style=color:black>Enter Name:
+</label><input type="text"  name="name" placeholder="Enter your name" id="in" ></h2>
+
+<p><label> <h2 style=color:black>Enter Email:</label>
+<input type="email" name="email" placeholder="Enter your email" id="in"></h2>
+</p> 
+<p><label><h2 style=color:black>Enter Phone:</label>
+<input type="phone" name="phone" placeholder="Enter your phone"id="in"></h2>
+</p>
+<p> <label><h2 style=color:black>Date Of birth:</label>
+<input type="date" name="dob" id="in"></h2>
+</p>
+
+<p> <label><h2 style=color:black>Diseased:&nbsp&nbsp&nbsp </label> 
+<input type="text" name="diseased" id="in"></h2>
+</p>
+
+
+<p> <label><h2 style=color:black>blood_group: </label>
+<select name="blood_group" id="in">
+<option>Choose</option>
+<option>A+</option>
+<option>O+</option>
+<option>B+</option>
+<option>AB+</option>
+<option>A-</option>
+<option>O-</option>
+<option>B-</option>
+<option>AB-</option>
+</select>
+<br> <br>
+<input type="submit" value="Add Patient" class='btn'>
+
+</form>
+
+</div>
+</body>
+</html>
